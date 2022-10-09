@@ -1,0 +1,51 @@
+* {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+td {
+  background-color: white;
+  padding: 50px;
+  font-size: 60px;
+}
+body {
+  background: #fecd04;
+}
+
+th {
+  font-size: 50px;
+}
+
+#button-bingo {
+  margin: 50px;
+  width: 100px;
+  height: 80px;
+  color: red;
+  background-color: blue;
+}
+
+#button-bingo:hover {
+  margin: 50px;
+  width: 100px;
+  height: 80px;
+  color: blue;
+  background-color: red;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+#numGen {
+  font-size: 40px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
+  padding: 3%;
+}

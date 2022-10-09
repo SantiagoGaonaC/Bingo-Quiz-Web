@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="/Parcial-deploy/css/style.css">
+    <script src="/Parcial-deploy/js/script.js" type="text/javascript" defer></script>
+
+</head>
+
+<body>
+    <div class="contenedor">
+        <table>
+            <thead>
+                <tr>
+                    <th id="B" style="color: #ec1e23;">B</th>
+                    <th id="I" style="color: #136db9;">I</th>
+                    <th id="N" style="color: #6d3894;">N</th>
+                    <th id="G" style="color: #07b14e;">G</th>
+                    <th id="O" style="color: #f26820;">O</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="cuadro0" onclick="prueba(0)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro1" onclick="prueba(1)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro2" onclick="prueba(2)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro3" onclick="prueba(3)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro4" onclick="prueba(4)" name="cuadro"> &nbsp;</td>
+
+                </tr>
+                <tr>
+                    <td id="cuadro5" onclick="prueba(5)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro6" onclick="prueba(6)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro7" onclick="prueba(7)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro8" onclick="prueba(8)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro9" onclick="prueba(9)" name="cuadro"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="cuadro10" onclick="prueba(10)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro11" onclick="prueba(11)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadroX"> X</td>
+                    <td id="cuadro12" onclick="prueba(12)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro13" onclick="prueba(13)" name="cuadro"> &nbsp;</td>
+                </tr>
+                <tr>
+
+                    <td id="cuadro14" onclick="prueba(14)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro15" onclick="prueba(15)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro16" onclick="prueba(16)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro17" onclick="prueba(17)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro18" onclick="prueba(18)" name="cuadro"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td id="cuadro19" onclick="prueba(19)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro20" onclick="prueba(20)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro21" onclick="prueba(21)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro22" onclick="prueba(22)" name="cuadro"> &nbsp;</td>
+                    <td id="cuadro23" onclick="prueba(23)" name="cuadro"> &nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <button id="button-bingo" onclick="bingo()">BINGO!</button>
+            <button id="button-bingo" onclick="otraNuevaCartilla()">Nueva Cartilla</button>
+            <div id="numGen">Ball</div>
+        </div>
+    </div>
+</body>
+<script src="/Parcial-deploy/js/iguales.js" type="text/javascript"></script>
+<script src="/Parcial-deploy/js/posicion.js" type="text/javascript"></script>
+
+</html>
